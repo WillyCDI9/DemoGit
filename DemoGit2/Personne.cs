@@ -43,7 +43,7 @@ namespace DemoGit2
         }
 
         //Autre constructeur
-        public Personne( string nom, string prenom, short age) : this( nom, prenom, age) { }
+        public Personne( string nom, string prenom) { }
         #endregion
     }
 }
