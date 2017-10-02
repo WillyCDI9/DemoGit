@@ -42,6 +42,8 @@ namespace DemoGit2
             this.Age = age;
         }
 
+        //Autre constructeur
+        public Personne( string nom, string prenom, short age) : this( nom, prenom, age) { }
         #endregion
     }
 }
